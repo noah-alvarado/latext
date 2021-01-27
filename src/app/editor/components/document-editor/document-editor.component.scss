@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-height: 80%;
+}
+
+.medium-editor-textarea {
+    @extend .mat-elevation-z8 !optional;
+    min-height: 100%;
+}
+
+mat-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 800px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    mat-card-content {
+        flex: 1;
+
+        div:focus {
+            outline: none;
+            // background-color: ;
+        }
+    }
+}

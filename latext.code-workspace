@@ -6,7 +6,11 @@
 	],
 	"settings": {
 		"cSpell.words": [
-			"latext"
+			"fireauth",
+			"firestore",
+			"latext",
+			"pncl",
+			"unicodeit"
 		]
 	}
 }

@@ -1,0 +1,9 @@
+<div *ngIf="viewModel$ | async as vm">
+    <h1>latext: A Medium Editor, Editor</h1>
+    <button mat-button
+        color="accent"
+        [style.visibility]="vm.isLoggedIn ? 'visible' : 'hidden'"
+        (click)="signOut()">
+        Sign Out
+    </button>
+</div>
