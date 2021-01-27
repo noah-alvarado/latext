@@ -1,10 +1,16 @@
 {
   "hosting": {
-    "public": "dist/latex",
+    "public": "dist/latext",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
