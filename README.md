@@ -1,3 +1,5 @@
+\*\* DEPRECATED: no firebase project to support hosting
+
 # latext
 
-Hosted at: https://latext-8f649.web.app/
+Angular app to take latex input and output formulas.
